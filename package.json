@@ -7,20 +7,6 @@
     "utility"
   ],
   "dependencies": {
-    "component-emitter": "*"
-  },
-  "component": {
-    "scripts": {
-      "file/index.js": "index.js",
-      "file/file.js": "file.js",
-      "file/reader.js": "reader.js"
-    }
-  },
-  "browser": {
-    "emitter": "component-emitter"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/component/file.git"
+    "component-emitter": "git://github.com/npmcomponent/component-emitter.git"
   }
 }
